@@ -6,4 +6,11 @@ g++ -O3 -Wall -shared -std=c++17 -fPIC -ID:/workSoftware/python32/include -ID:/w
 
 
 编译.dll命令
-g++ -shared -o math_operations.dll math_operations.cpp -DMATHOPERATIONS_EXPORTS
+
+gcc -shared -o math_operations.dll math_operations.cpp
+
+生成.exe命令
+gcc test.cpp -o test
+
+运行.exe命令
+./test
